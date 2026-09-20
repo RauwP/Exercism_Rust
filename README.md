@@ -1,25 +1,40 @@
-# Rust Book Projects
+# Exercism Rust Solutions
 
-This repository contains my coding tasks and projects created while following [The Rust Programming Language](https://doc.rust-lang.org/book/) (commonly known as "The Rust Book"). It serves as a personal learning log and an archive of my progress as I learn Rust.
+A collection of solutions for exercises from the [Exercism](https://exercism.org/) Rust track. This repository serves as a personal log of problem-solving, algorithm implementation, and idiomatic Rust practice.
 
-## 📂 Repository Contents
+## 📁 Repository Structure
 
-Current projects include:
+Each exercise is a standalone Cargo crate with the solution in `src/` and the provided test suite in `tests/`:
 
-- **`Hello-World/hello_cargo`** — The introductory Cargo project.
-- **`guessing_game`** — The number guessing game built in Chapter 2.
+- **`anagram`** — Find every anagram of a word among a list of candidates.
+- **`armstrong-numbers`** — Check if a number is an Armstrong number.
+- **`bottle-song`** — Generate the lyrics of "Ten Green Bottles".
+- **`clock`** — A 24-hour clock that handles minute arithmetic and wrapping.
+- **`difference-of-squares`** — Difference between the sum of squares and the square of the sum.
+- **`flower-field`** — Annotate a field with the count of flowers adjacent to each square.
+- **`gigasecond`** — Determine the moment one gigasecond after a given instant.
+- **`grains`** — Calculate the number of grains of wheat on a chessboard.
+- **`hello-world`** — The classic introductory exercise.
+- **`luhn`** — Validate numbers using the Luhn checksum formula.
+- **`reverse-string`** — Reverse a string, including multi-byte grapheme clusters.
+- **`space-age`** — Calculate an age in years on each planet of the solar system.
+- **`sublist`** — Determine whether a list is a sublist, superlist, equal, or unequal to another.
 
-*(More projects will be added as I work my way through the book!)*
+## 🛠️ Running Tests
 
-## 🚀 How to Run
-
-These projects are managed using Cargo (Rust's package manager and build system). To run any of the projects, navigate into the specific project directory using your terminal and use the following command:
+Each exercise is its own crate. To run the tests for one, navigate into its directory and run:
 
 ```bash
-cargo run
+cargo test
 ```
 
-If you just want to check if the code compiles without running the executable, you can use:
+Exercism ships most tests marked `#[ignore]` so they can be enabled one at a time while working through an exercise. To run the complete suite for an exercise:
+
+```bash
+cargo test -- --include-ignored
+```
+
+To check that a solution compiles without running the tests:
 
 ```bash
 cargo check
