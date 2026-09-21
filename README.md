@@ -16,6 +16,7 @@ Each exercise is a standalone Cargo crate with the solution in `src/` and the pr
 - **`grains`** — Calculate the number of grains of wheat on a chessboard.
 - **`hello-world`** — The classic introductory exercise.
 - **`luhn`** — Validate numbers using the Luhn checksum formula.
+- **`prime-factors`** — Compute the prime factors of a given natural number.
 - **`reverse-string`** — Reverse a string, including multi-byte grapheme clusters.
 - **`space-age`** — Calculate an age in years on each planet of the solar system.
 - **`sublist`** — Determine whether a list is a sublist, superlist, equal, or unequal to another.
