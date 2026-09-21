@@ -15,7 +15,9 @@ Each exercise is a standalone Cargo crate with the solution in `src/` and the pr
 - **`gigasecond`** — Determine the moment one gigasecond after a given instant.
 - **`grains`** — Calculate the number of grains of wheat on a chessboard.
 - **`hello-world`** — The classic introductory exercise.
+- **`leap`** — Determine whether a year is a leap year.
 - **`luhn`** — Validate numbers using the Luhn checksum formula.
+- **`nth-prime`** — Find the nth prime number.
 - **`prime-factors`** — Compute the prime factors of a given natural number.
 - **`reverse-string`** — Reverse a string, including multi-byte grapheme clusters.
 - **`space-age`** — Calculate an age in years on each planet of the solar system.
