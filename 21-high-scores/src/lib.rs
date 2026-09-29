@@ -11,18 +11,20 @@ impl HighScores {
     }
 
     pub fn scores(&self) -> &[u32] {
-        self.
+        &self.scores
     }
 
     pub fn latest(&self) -> Option<u32> {
-        todo!("Return the latest (last) score")
+        self.scores.last().copied()
     }
 
     pub fn personal_best(&self) -> Option<u32> {
-        todo!("Return the highest score")
+        self.scores.iter().max().copied()
     }
 
     pub fn personal_top_three(&self) -> Vec<u32> {
-        todo!("Return 3 highest scores")
+        let mut sorted_scores = self.scores.clone();
+        sorted_scores.sort_by(|a, b| b.cmp(a));
+        sorted_scores.into_iter().take(3).collect()
     }
 }
