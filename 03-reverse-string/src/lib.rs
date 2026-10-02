@@ -4,5 +4,5 @@ pub fn reverse(input: &str) -> String {
         rev.insert(0, c);
     }
     return rev;
-    //alternetavily: retrurn input.chars().rev().collect();
+    //alternetavily: retrurn input.chars().rev().collect()
 }
