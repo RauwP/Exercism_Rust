@@ -31,6 +31,10 @@ Each exercise is a standalone Cargo crate with the solution in `src/` and the pr
 - **`23-collatz-conjecture`** - Calculate the number of steps from a number to 1 using the collatz conjecture rules.
 - **`24-series`** - return all series of length n from a string of digits.
 - **`25-kindergarten-garden`** - return which flowers each child decided to plant.
+- **`26-eliuds-eggs`** - count set bits in a number representing a chicken coop's eggs.
+- **`27-acronym`** - convert a phrase to its acronym.
+- **`28-etl`** - transform a scoring map from "one score, many letters" to "one letter, one score".
+- **`29-all-your-base`** - convert a sequence of digits from one base to another.
 
 ## 🛠️ Running Tests
 
