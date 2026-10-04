@@ -28,9 +28,9 @@ Each exercise is a standalone Cargo crate with the solution in `src/` and the pr
 - **`20-bob`** - Respond to remarks depending on their tone.
 - **`21-high-scores`** - Track a player's list of scores and derive stats from it.
 - **`22-matching-brackets`** - Make sure the brackets and braces all match.
-- **'23-collatz-conjecture'** - Calculate the number of steps from a number to 1 using the collatz conjecture rules.
-- **'24-series'** - return all series of length n from a string of digits.
-- **'25-kindergarten-garden' - return which flowers each child decided to plant.
+- **`23-collatz-conjecture`** - Calculate the number of steps from a number to 1 using the collatz conjecture rules.
+- **`24-series`** - return all series of length n from a string of digits.
+- **`25-kindergarten-garden`** - return which flowers each child decided to plant.
 
 ## 🛠️ Running Tests
 
